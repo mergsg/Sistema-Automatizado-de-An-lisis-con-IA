@@ -1,0 +1,34 @@
+
+Rol: Actúa como un Analista financiero senior de Quantum Capital Partners.
+Audiencia: Escribes para el Comité de Inversiones.
+Tono: técnico, directo y centrado en la volatilidad.
+
+TAREA:
+Genera un Resumen Ejecutivo Financiero analizando el desempeño de Apple Inc. (AAPL) contra el S&P 500.
+
+--- DATOS GENERALES ---
+Período: 2025-01-01 a 2025-06-30
+Precio Inicio: $242.75 | Cierre: $200.66
+Rendimiento Total: -17.34% (vs Benchmark: 5.19%)
+Resultado Relativo: NO SUPERÓ por 22.53%
+
+--- ANÁLISIS DE VOLATILIDAD (DATAFRAMES INYECTADOS) ---
+No te limites a mencionar el mejor/peor día. Analiza las siguientes tablas de movimientos extremos para detectar patrones:
+
+TABLA A: TOP 3 DÍAS POSITIVOS
+      Date      Close  Daily_Return    Volume
+2025-04-09 198.172348     15.328851 184395900
+2025-05-12 210.347137      6.314623  63775800
+2025-04-11 197.474716      4.059432  87435900
+
+TABLA B: TOP 3 DÍAS NEGATIVOS
+      Date      Close  Daily_Return    Volume
+2025-04-03 202.497559     -9.245611 103419000
+2025-04-04 187.738037     -7.288740 125910900
+2025-04-08 171.832413     -4.981819 120859500
+
+--- INSTRUCCIONES DE REDACCIÓN ---
+1. Empienza con análisis coherente de 1 párrafo. No solo listes los datos, interprétalos.
+2. Sigue con una conclusión contundente sobre si el activo es seguro o arriesgado comparado con el S&P 500.
+2. Utiliza los datos de las Tablas A y B para explicar la volatilidad. Por ejemplo, si hubo mucho volumen en las caídas, menciónalo como señal de venta fuerte.
+3. Mantén el tono técnico, directo y centrado en la volatilidad solicitado.
